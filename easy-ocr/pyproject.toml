@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "easy-ocr"
+version = "0.1.0"
+description = ""
+authors = ["t.mashimo <39459987+mashita1023@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+easyocr = "^1.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
